@@ -5,6 +5,10 @@ ul {
 .navList {
     display: flex;
     justify-content: space-evenly;
+    background-color: #848484;
+    padding: 10px 30px 10px 30px;
+    color: #bf8936;
+    
 }
 
 .footerLinks {
