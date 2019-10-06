@@ -1,13 +1,12 @@
 header { 
     display: flex;
     background-color: #a23627;
-    text-shadow: 2px 2px #cb886f; 
+    text-shadow: 2px 2px #c8953f; 
     font-family: 'Courier New', Courier, monospace;
     color: black;
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: #cb886f solid;
-    border-top: #cb886f solid;
 }
 
 nav ul {
@@ -24,8 +23,9 @@ section > h1 {
 }
 
 /* Styles the individiual hyperlinks in the Nav Bar on News */
-a {
-    color: #cb886f;
+li > a {
+    color: slategrey;
+    font-weight: bold;
 }
 
 a:active {
@@ -35,6 +35,7 @@ a:active {
 
 a {
     text-decoration: none;
+    color: #a23627;
 }
 
 footer {
@@ -48,11 +49,11 @@ html, body {
     padding: 0;
 }
 
-img {
-    /* border: 1px solid #ddd; Gray border */
+img.articleImage {
+    border: 1px solid #ddd; 
     border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 250px; /* Set a small width */       
+    /* Some padding */
+    width: 250px; /* Set a small width */    
   }
 
 article {
@@ -82,16 +83,46 @@ section {
 hr {
     border-color: black;
     width: 100%;
-    height: 5px;
+    height: 1px;
     background-color: black;
 }
 
 header > img {
     width: 10%;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 main {
     background-color: #c8953f;
+}
+
+.indexNav {
+    border: white solid; 
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.careerNav {
+    border: white solid;
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.personalNav {
+    border: white solid;
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.newsNav {
+    border: white solid;
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
 }
 
 /* CHEAT SHEET ON HYPERLINK CSS */
