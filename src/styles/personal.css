@@ -9,8 +9,13 @@ body {
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-main {
-    margin-left: 25%;
+a {
+    color: orangered;
+}
+
+h2 {
+    color: grey;
 }
