@@ -8,25 +8,41 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 35%;
+    
+}
+.zachpick{
+    height: 50px;
 }
 .footerLinks {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     list-style-type: none;
     padding: 15%;
+
+    }
+.footerLinks img {
     width: 10%;
     height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 
 }
 h1 {
     color: goldenrod;
     display: flex;
     justify-content: center;
+    
 }
 h2 {
     color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
 h3 {
     color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
