@@ -5,33 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="styles/career.css">
-    <link rel="stylesheet" href="styles/executive.css"> -->
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/news.css">
-    <!-- <link rel="stylesheet" href="styles/personal.css"> -->
+    <link rel="stylesheet" href="/src/styles/news.css">
+    <!-- <link rel="stylesheet" href="/src/styles/personal.css">
+    <link rel="stylesheet" href="/src/styles/executive.css">
+    <link rel="stylesheet" href="styles/personal.css"> -->
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <!-- LINK TO GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <header>
-    <h1>This is the header</h1>
+    <img id="headerThumbnail" src="/src/images/basketsimg2.jpg">
+    <h1>Zach Galifianakis: <br>News and Events</br></h1>
 </header>
-<nav >
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="career.html">Career</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="personal.html">Personal</a></li>
+
+<nav class="navBar">
+    <ul class="navList">
+        <li><a class="indexNav" href="../index.html">Home</a></li>
+        <li><a class="careerNav" href="career.html">Career</a></li>
+        <li><a class="newsNav" href="news.html">News</a></li>
+        <li><a class="personalNav" href="personal.html">Personal</a></li>
     </ul>
 </nav>
+
+<!-- We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
+
+Recent events that might be connected to artist.
+Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets. -->
+
 <body>
     <main>
-        <h1>This is the body of News (Caroline)</h1>
+        <article>
+            <!-- INDIE WIRE ARTICLE -->
+            <section>
+                <h1><a href="https://www.indiewire.com/2019/05/between-two-ferns-netflix-release-date-zach-galifianakis-movie-1202144525/"><img class="articleImage" src="/src/images/NewsEventsImages/IndieWireLogo.jpeg"></a></h1><br>
+                <img class="articleImage" src="/src/images/NewsEventsImages/Zach-Galifianakis-David-Letterman (1).jpg">
+                <h3><a href="https://www.indiewire.com/2019/05/between-two-ferns-netflix-release-date-zach-galifianakis-movie-1202144525/" ></a>‘Between Two Ferns’ Movie: Zach Galifianakis and Co-Star David Letterman Reveal Details</h3>
+                <p>May 24, 2019 11:29 am</p>
+                <p>by <a href="https://www.indiewire.com/author/steve-greene/">Steve Green</a></p>
+                <p class="synopsis">
+                    "After scaling the heights of viral comedy shortsdom, “Between Two Ferns” is ready for the Netflix
+                    movie treatment. At an awards event at Netflix’s FYSee space in Hollywood on Thursday night, Zach
+                    Galifianakis and David Letterman revealed that not only was the long-rumored film in the works, but
+                    that it was set to arrive on the service later this fall." <a
+                        href="https://www.indiewire.com/2019/05/between-two-ferns-netflix-release-date-zach-galifianakis-movie-1202144525/">(Read
+                        More)</a>
+                </p>
+            </section>
+            <hr>
+            <!-- AP ARTICLE -->
+            <section>
+                <h1><a href="https://www.apnews.com/c89379033b3749aabb55374a210be84b"><img class="apLOGO" src="/src/images/NewsEventsImages/apLOGO.png"></a></h1><br>
+                <img class="articleImage" src="/src/images/NewsEventsImages/APPhoto.jpeg">
+                <h3>Galifianakis and Aukerman on ‘Between 2 Ferns: The Movie’</h3>
+                <p>September 19, 2019</p>
+                <p>by <a href="https://twitter.com/jakecoyleAP">Jake Cole</a></p>
+                <p class="synopsis">
+                    "NEW YORK (AP) — Some Netflix titles involve anguished discussion over whether the movie will also
+                    get a substantial theatrical release. This was not the case for “Between Two Ferns: The Movie.”
+
+                    “Netflix was like: Do we even want to put this on our platform? Maybe it should be a ringtone,”
+                    jokes Zach Galifianakis, the celebrity-mocking star of the internet series and film.
+
+                    But for many, the release of “Between Two Ferns: The Movie” is a cinematic event of mammoth
+                    significance. It promises a feature-film feast of a rare comedy candy that, since its 2008
+                    inception, has been only dispersed randomly in 3-6-minute morsels. It’s been five years since there
+                    were steady new episodes of the faux interview show, and there remains nothing quite like it."<a
+                        href="https://www.apnews.com/c89379033b3749aabb55374a210be84b">(Read More)</a>
+                </p>
+            </section>
+            <hr>
+            <!-- NPR ARTICLE -->
+            <section>
+                <h1><a href="https://www.npr.org/2019/09/21/762586852/not-my-job-zach-galifianakis-plays-a-game-called-between-two-derns"><img class="articleImage" src="/src/images/NewsEventsImages/nprLOGO.jpeg"></a></h1><br>
+                <img class="articleImage" src="/src/images/NewsEventsImages/NPRPhoto.jpeg">
+                <h3>Not My Job: Zach Galifianakis Plays A Game Called 'Between Two Derns'</h3>
+                <p>September 21, 201911:04 AM ET</p>
+                <a><img class="WWDTMLogo" src="/src/images/NewsEventsImages/WWDTMLogo.png" href="https://www.nashvillepublicradio.org/programs/wait-wait-dont-tell-me#stream/0"></a>
+                <p class="synopsis">
+                    "Comedian Zach Galifianakis is known for his Internet series Between Two Ferns, in which he conducts
+                    celebrity interviews while seated — you guessed it — in between two ferns. Between Two Ferns: The
+                    Movie premieres on Netflix in September.
+
+                    We've invited Galifianakis to play a game called "Between Two Derns" — three questions about actor
+                    Laura Dern and her father, Bruce Dern"<a
+                        href="https://www.npr.org/2019/09/21/762586852/not-my-job-zach-galifianakis-plays-a-game-called-between-two-derns">(Read
+                        More)</a>
+                </p>
+            </section>
+            <!-- TICKETMASTER SECTION -->
+            <div class="ticketmaster">
+                <h1 class="contentName">Events</h1>
+                <section>
+                    <p>Visit Ticketmaster for the latest updates and to order tickets for upcoming shows.</p>
+                    <h1><a href="https://www.ticketmaster.com/zach-galifianakis-tickets/artist/986304"><img class="ticketmasterLogo"
+                            src="/src/images/NewsEventsImages/ticketmasterLOGO.png"></a></h1>
+                </section>
+            </div>
+        </article>
     </main>
     <footer>
-        <ul>
-            <li><a href="https://www.instagram.com/zach_galifianakis/?hl=en">Instagram</a></li>
-            <li><a href="https://twitter.com/galifianakisz?lang=en">Twitter</a></li>
-            <li><a href="https://www.imdb.com/name/nm0302108/">IMDb</a></li>
+        <ul class="footerIcons">
+            <li class="footerLink"><a href="https://www.instagram.com/zach_galifianakis/?hl=en"><img class="twitterIcon" src="/src/images/NewsEventsImages/twitterIcon.png"></a></li>
+            <li class="footerLink"><a href="https://twitter.com/galifianakisz?lang=en"><img class="instagramIcon" src="/src/images/NewsEventsImages/instagramIcon.png"></a></li>
+            <li class="footerLink"><a href="https://www.imdb.com/name/nm0302108/"><img class="imdbIcon" src="/src/images/NewsEventsImages/IMDb.png"></a></li>
         </ul>
     </footer>
 </body>
