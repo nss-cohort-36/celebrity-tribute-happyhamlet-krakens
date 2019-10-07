@@ -8,6 +8,9 @@ header {
     padding-bottom: 10px;
 }
 
+.navList {
+    background-color: black;
+}
 nav ul {
     font-family: 'Courier New';
     margin: 0;
