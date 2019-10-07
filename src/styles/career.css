@@ -4,8 +4,10 @@
 }
 #headShot {
     width: 300px;
+    margin: 5px;
 }
-/* #imageBioSection > section { */
-    /* flex-basis: 80%; */
-/* } */
+#otherInfo {
+    display: flex;
+    flex-direction: column;
+}
 
