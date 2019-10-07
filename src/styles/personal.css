@@ -8,7 +8,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -16,6 +16,6 @@ a {
     color: orangered;
 }
 
-h2 {
+h2.label {
     color: grey;
 }
