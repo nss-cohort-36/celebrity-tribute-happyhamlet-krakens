@@ -4,3 +4,13 @@
     display: flex;
     flex-basis: 10%;
 }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin-left: 25%;
+}
