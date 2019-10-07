@@ -1,0 +1,6 @@
+/* cannot get CSS to work to make my image smaller */
+
+#NC-Map {
+    display: flex;
+    flex-basis: 10%;
+}
