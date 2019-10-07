@@ -6,12 +6,12 @@ header {
     color: black;
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: #cb886f solid;
 }
 
 nav ul {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New';
     margin: 0;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 ul {
@@ -24,7 +24,7 @@ section > h1 {
 
 /* Styles the individiual hyperlinks in the Nav Bar on News */
 li > a {
-    color: slategrey;
+    color: black;
     font-weight: bold;
 }
 
@@ -40,8 +40,7 @@ a {
 
 footer {
     background-color: black;
-    font-style: italic;
-    font-size: small;
+    display: flex; 
 }
 
 html, body {
@@ -71,13 +70,21 @@ section {
 }
 
 .synopsis {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: justify;
+}
+
+h3 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
 }
 
 .apLOGO {
     width: 10%;
+    border: 1px solid #ddd; 
+    border-radius: 4px;  /* Rounded border */
 }
 
 hr {
@@ -89,16 +96,15 @@ hr {
 
 header > img {
     width: 10%;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
 main {
-    background-color: #c8953f;
+    background-color: #848484;
 }
 
-.indexNav {
-    border: white solid; 
+.indexNav { 
     background-color: white;
     border: 5px solid white; 
     border-radius: 4px;
@@ -121,8 +127,55 @@ main {
 .newsNav {
     border: white solid;
     background-color: white;
-    border: 5px solid white; 
+    border: 6px solid white; 
     border-radius: 4px;
+}
+
+.contentName {
+    text-shadow: 2px 2px #c8953f; 
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.ticketmaster {
+    background-color: #a23627;
+    border-top: black solid 5px;
+    margin-bottom: -10px; 
+}
+
+.ticketmasterLogo {
+    width: 40%;
+    margin-bottom: 65px;
+}
+
+.twitterIcon {
+    width: 10%;
+    margin-top: 12px;
+}
+
+.instagramIcon {
+    width: 10%;
+    margin-top: 10px;
+}
+
+.imdbIcon {
+    width: 10%;
+    margin-top: 15px;
+}
+
+.WWDTMLogo {
+    width: 15%;
+    margin-left: 325px;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerLink {
+    text-align: center;
 }
 
 /* CHEAT SHEET ON HYPERLINK CSS */
