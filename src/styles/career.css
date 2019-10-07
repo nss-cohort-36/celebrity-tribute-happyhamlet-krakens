@@ -1,0 +1,16 @@
+#imageBioSection {
+    display: flex;
+    flex-direction: row;
+}
+#headShot {
+    width: 300px;
+    margin: 5px;
+}
+#otherInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img {
+    width: 300px;
+}
