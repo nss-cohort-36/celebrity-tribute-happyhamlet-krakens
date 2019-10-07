@@ -5,6 +5,8 @@ ul {
 .navList {
     display: flex;
     justify-content: space-evenly;
+    border: solid black 20px;
+    background-color: black;
 }
 
 .footerLinks {
