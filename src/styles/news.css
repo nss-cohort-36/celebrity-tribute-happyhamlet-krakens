@@ -1,3 +1,188 @@
-body {
-    background-color: aquamarine;
+header { 
+    display: flex;
+    background-color: #a23627;
+    text-shadow: 2px 2px #c8953f; 
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
+
+.navList {
+    background-color: black;
+}
+nav ul {
+    font-family: 'Courier New';
+    margin: 0;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section > h1 {
+    text-align: center; 
+}
+
+/* Styles the individiual hyperlinks in the Nav Bar on News */
+li > a {
+    color: black;
+    font-weight: bold;
+}
+
+a:active {
+    color: #c8953f;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #a23627;
+}
+
+footer {
+    background-color: black;
+    display: flex; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img.articleImage {
+    border: 1px solid #ddd; 
+    border-radius: 4px;  /* Rounded border */
+    /* Some padding */
+    width: 250px; /* Set a small width */    
+  }
+
+article {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.synopsis {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+h3 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.apLOGO {
+    width: 10%;
+    border: 1px solid #ddd; 
+    border-radius: 4px;  /* Rounded border */
+}
+
+hr {
+    border-color: black;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+header > img {
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #848484;
+}
+
+.indexNav { 
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.careerNav {
+    border: white solid;
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.personalNav {
+    border: white solid;
+    background-color: white;
+    border: 5px solid white; 
+    border-radius: 4px;
+}
+
+.newsNav {
+    border: white solid;
+    background-color: white;
+    border: 6px solid white; 
+    border-radius: 4px;
+}
+
+.contentName {
+    text-shadow: 2px 2px #c8953f; 
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.ticketmaster {
+    background-color: #a23627;
+    border-top: black solid 5px;
+    margin-bottom: -10px; 
+}
+
+.ticketmasterLogo {
+    width: 40%;
+    margin-bottom: 65px;
+}
+
+.twitterIcon {
+    width: 10%;
+    margin-top: 12px;
+}
+
+.instagramIcon {
+    width: 10%;
+    margin-top: 10px;
+}
+
+.imdbIcon {
+    width: 10%;
+    margin-top: 15px;
+}
+
+.WWDTMLogo {
+    width: 15%;
+    margin-left: 325px;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerLink {
+    text-align: center;
+}
+
+/* CHEAT SHEET ON HYPERLINK CSS */
+/* a:link - a normal, unvisited link.
+a:visited - a link the user has visited.
+a:hover - a link when the user mouses over it.
+a:active - a link the moment it is clicked. */
