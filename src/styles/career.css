@@ -1,0 +1,11 @@
+#imageBioSection {
+    display: flex;
+    flex-direction: row;
+}
+#headShot {
+    width: 300px;
+}
+/* #imageBioSection > section { */
+    /* flex-basis: 80%; */
+/* } */
+
