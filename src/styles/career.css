@@ -76,7 +76,7 @@ img {
     right: 60px;
 }
 #coStars {
-    background-color: #b3b3b3;
+    background-image: url("../images/hollywood_sign.jpeg")
 }
 #awards {
     background-color: antiquewhite;
