@@ -1,7 +1,11 @@
+/* This sets the background color. */
+
 body {
     background-color: black;
     
 }
+/* This targets the header and sets the color for the border, font and dimensions of padding and orientation. */
+
 header { 
     display: flex;
     background-color: #a23627;
@@ -11,151 +15,52 @@ header {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+/* This targets the navigation bar and turns the background of the bar black. */
 
 .navList {
     background-color: black;
 }
+
+/* This sets uniform font and adds effect, if you delete this the nav bar goes black and you cannot see any of the hyperlinks */
 nav ul {
     font-family: 'Courier New';
     margin: 0;
     text-shadow: 2px 2px whitesmoke;
 }
-
-ul {
-    list-style-type: none;
-}
+/* Code simply aligns h1 to center. All of them. */
 
 section > h1 {
     text-align: center; 
 }
 
 /* Styles the individiual hyperlinks in the Nav Bar on News */
+/* If you remove this it makes the words have a red shadow in the nav bar */
 li > a {
     color: black;
     font-weight: bold;
 }
-
-a:active {
-    color: #c8953f;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: #a23627;
-}
+/* The following code centers the links in the footer and sets spacing and color style of background */
 
 footer {
     background-color: black;
     display: flex; 
+    justify-content: center;
+
 }
+/* Code that targets the body and makes edges meet the border of visibility if removed makes ugly boxes */
 
 html, body {
     margin: 0;
     padding: 0;
 }
-
-img.articleImage {
-    border: 1px solid #ddd; 
-    border-radius: 4px;  /* Rounded border */
-    /* Some padding */
-    width: 250px; /* Set a small width */    
-  }
-
-article {
-    display: flex;
-    justify-content: space-evenly; 
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.synopsis {
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: justify;
-}
+/* targets h3 elements in index.html and condenses data on main page if removed spreads out data */
 
 h3 {
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
 }
-
-.apLOGO {
-    width: 10%;
-    border: 1px solid #ddd; 
-    border-radius: 4px;  /* Rounded border */
-}
-
-hr {
-    border-color: black;
-    width: 100%;
-    height: 1px;
-    background-color: black;
-}
-
-header > img {
-    width: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-main {
-    background-color: black;
-}
-
-.indexNav { 
-    background-color: white;
-    border: 5px solid white; 
-    border-radius: 4px;
-}
-
-.careerNav {
-    border: white solid;
-    background-color: white;
-    border: 5px solid white; 
-    border-radius: 4px;
-}
-
-.personalNav {
-    border: white solid;
-    background-color: white;
-    border: 5px solid white; 
-    border-radius: 4px;
-}
-
-.newsNav {
-    border: white solid;
-    background-color: white;
-    border: 6px solid white; 
-    border-radius: 4px;
-}
-
-.contentName {
-    text-shadow: 2px 2px #c8953f; 
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    font-size: 32px;
-    margin-left: 50px;
-}
-
-.ticketmaster {
-    background-color: #a23627;
-    border-top: black solid 5px;
-    margin-bottom: -10px; 
-}
-
-.ticketmasterLogo {
-    width: 40%;
-    margin-bottom: 65px;
-}
+/* These all target footer and icons in footer setting size and uniformity */
 
 .twitterIcon {
     width: 10%;
@@ -184,6 +89,7 @@ main {
 .footerLink {
     text-align: center;
 }
+/* This sets the parameters of the center image portrait and is the main piece of the page */
 
 .centerImg {
     display: flex;
@@ -197,6 +103,7 @@ main {
 .zachpick{
     height: 60px;
 }
+/* These target the individual fonts and h1-3 elements for font and styling. */
 
 h1 {
     color: goldenrod;
