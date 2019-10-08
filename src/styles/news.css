@@ -114,21 +114,18 @@ main {
 }
 
 .careerNav {
-    border: white solid;
     background-color: white;
     border: 5px solid white; 
     border-radius: 4px;
 }
 
-.personalNav {
-    border: white solid;
+.personalNav { 
     background-color: white;
     border: 5px solid white; 
     border-radius: 4px;
 }
 
 .newsNav {
-    border: white solid;
     background-color: white;
     border: 6px solid white; 
     border-radius: 4px;
