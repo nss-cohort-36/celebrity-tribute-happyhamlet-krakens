@@ -1,3 +1,6 @@
+body {
+    background-color: antiquewhite;
+}
 header {
     text-align: center;
     background-color: #a23627;
@@ -83,4 +86,30 @@ img {
 }
 #awards {
     background-color: antiquewhite;
+}
+footer {
+    background-color: black;
+}
+
+.twitterIcon {
+    width: 10%;
+    margin-top: 12px;
+}
+
+.instagramIcon {
+    width: 10%;
+    margin-top: 10px;
+}
+
+.imdbIcon {
+    width: 10%;
+    margin-top: 15px;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerLink {
+    text-align: center;
 }
