@@ -3,11 +3,13 @@ header {
     background-color: #a23627;
     margin-bottom: 0%;
 }
+/* added styling to navbar for clarity */
 .navList > li {
     background-color: white;
     border: 5px solid white;
     border-radius: 18px;
 }
+/* flexbox to style headshot and bio paragraph for wrap */
 #imageBioSection {
     display: flex;
     flex-direction: row;
@@ -17,35 +19,42 @@ header {
     width: 300px;
     margin: 5px;
 }
+/* flexbox to make items line up */
 #otherInfo {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+/* standard height for images set */
 img {
     width: 300px;
     max-height: 100%;
 }
+/* styling on section for contrast from other sections */
 #skills {
     border: 1px solid black;
     background-color: #d25746;
 }
+/* flexbox for alignment and spacing */
 #movies > ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around
 }
+/* height set for consistency */
 #movies * li {
     object-fit: cover;
     height: 440px;
     max-height: 100%;
 }
+/* styling to set image and allow html text to be placed over image */
 #placesLived {
     position: relative;
     text-align: center;
     color: black;
 }
+/* styling to place text on image */
 .bottomLeft {
     position: absolute;
     bottom: 290px;
