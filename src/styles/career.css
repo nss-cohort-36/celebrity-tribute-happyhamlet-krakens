@@ -1,3 +1,6 @@
+body {
+    background-color: antiquewhite;
+}
 header {
     text-align: center;
     background-color: #a23627;
@@ -76,8 +79,37 @@ img {
     right: 60px;
 }
 #coStars {
-    background-color: #b3b3b3;
+    background-image: url("../images/hollywood_sign.jpeg");
+    background-size: auto;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 #awards {
     background-color: antiquewhite;
+}
+footer {
+    background-color: black;
+}
+
+.twitterIcon {
+    width: 10%;
+    margin-top: 12px;
+}
+
+.instagramIcon {
+    width: 10%;
+    margin-top: 10px;
+}
+
+.imdbIcon {
+    width: 10%;
+    margin-top: 15px;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerLink {
+    text-align: center;
 }
