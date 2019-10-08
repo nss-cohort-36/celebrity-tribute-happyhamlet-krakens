@@ -1,4 +1,4 @@
-/* cannot get CSS to work to make my image smaller */
+/* copied from Caroline for uniformity */
 header { 
     display: flex;
     background-color: #a23627;
@@ -9,11 +9,12 @@ header {
     padding-bottom: 10px;
 }
 
+/* to create contrast to black text */
 h2.label {
     color: #c8953f;
 }
 
-
+/* to center images and create max width and height for images */
 div.img-container {
     display: inline-flex;
     justify-content: center;
@@ -21,7 +22,7 @@ div.img-container {
     width: 100px;
 
 }
-
+/* creates border and padding for images */
 img.img-family-small {
     width: auto;
     max-height: 100%;
@@ -82,7 +83,7 @@ li > a {
     color: black;
     font-weight: bold;
 }
-
+/* hyperlink formatting */
 a:active {
     color: #c8953f;
     font-weight: bold;
@@ -92,7 +93,7 @@ a {
     text-decoration: none;
     color: #a23627;
 }
-
+/* Nav links - copied from Caroline for uniformity */
 .indexNav { 
     background-color: white;
     border: 5px solid white; 
@@ -127,7 +128,7 @@ a {
     font-size: 32px;
     margin-left: 50px;
 }
-
+/* Footer links and formatting - copied from Caroline for uniformity */
 .ticketmaster {
     background-color: #a23627;
     border-top: black solid 5px;
